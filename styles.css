@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #020412;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #5e2bff;
+    padding: 20px;
+    display: flex;
+    border: 2px solid #fff;
+}
+
+#container > .block{
+    padding: 20px;
+}
+
+.block {
+    color: #fff;
+}
+
+.block:first-child{
+    background-color: #020412;
+    color: #fff;  
+}
+
+.information-container{
+    display: flex;
+}
+
+.info{
+    margin-left: 5px;
+}
+
+#location{
+    font-weight: bold;
+    font-size: 22px;
+}
+
